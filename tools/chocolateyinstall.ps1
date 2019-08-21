@@ -16,7 +16,7 @@ $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 # Community Repo: Use official urls for non-redist binaries or redist where total package size is over 200MB
 # Internal/Organization: Download from internal location (internet sources are unreliable)
 $url        = '' # download url, HTTPS preferred
-$url64      = 'https://github.com/libvips/libvips/releases/download/v8.7.4/vips-dev-w64-web-8.7.4a.zip' # 64bit URL here (HTTPS preferred) or remove - if installer contains both (very rare), use $url
+$url64      = 'https://github.com/libvips/libvips/releases/download/v8.8.1/vips-dev-w64-web-8.8.1a.zip' # 64bit URL here (HTTPS preferred) or remove - if installer contains both (very rare), use $url
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
